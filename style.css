@@ -1,0 +1,23 @@
+body{
+  background-image: url('images/gunrange.jpg');
+  background-repeat: no-repeat;
+
+  width: 900px;
+  height: 400px;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+
+}
+#gun{
+  width: 300px;
+  height: 260px;
+  margin-top:80px;
+  margin-right: 260px;
+  position: relative;
+}
+#target{
+  width: 0px;
+  height: 60px;
+
+}
