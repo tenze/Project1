@@ -5,12 +5,30 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href='style.css'>
 </head>
-<body>
-<div id='target'>
-  <img src='images/target.png' id='target' alt="">
+<body class='game'>
+
+<div id='wrapper' class='wrap'>
+
+  <div id='player'>
+  </div>
+
+  <div id='target'>
+    <img src='images/target.png' id='spot' alt="">
+  </div>
+
+
+  <div id='gun'>
+    <img src='images/gun.png' id='gun' alt="gun head">
+  </div>
+
+
+<div id='ammu'>
+<img src="images/bullet.png" id='shot' alt='Smoke from gun'>
+
 </div>
 
-<img src='images/gun.png' id='gun' alt="gun head">
+<button type='button' id='start'>Shoot</button>
+</div>
 <script src="script/script.js"></script>
 </body>
 </html>
