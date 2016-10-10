@@ -8,27 +8,38 @@
 <body class='game'>
 
 <div id='wrapper' class='wrap'>
+  <div class='newAmmo'>
+</div>
 
-  <div id='player'>
-  </div>
-
-  <div id='target'>
-    <img src='images/target.png' id='spot' alt="">
-  </div>
-
-
-  <div id='gun'>
-    <img src='images/gun.png' id='gun' alt="gun head">
-  </div>
+<div class='target'>
+  <img src='images/target.png' class='spot' alt="">
+</div>
 
 
-<div id='ammu'>
-<img src="images/bullet.png" id='shot' alt='Smoke from gun'>
+<div class='ammu'>
+  <img src="images/bullet.png" id='shot' class='shot' alt='Bullet image'>
+</div>
+
+<div id='playerInfo'>
 
 </div>
 
-<button type='button' id='start'>Shoot</button>
+<div class='button'>
+  <button type='button' class='start'>Start</button>
+  <button type='button' class='reset'>Restart</button>
 </div>
+</div>
+
+
+
+<h3>How To</h3>
+<p>
+  This game let you shoot at the target one time. If you miss, you loose.. Use Up arrow to shoot.  <br />
+</p>
+
+
+
+
 <script src="script/script.js"></script>
 </body>
 </html>
